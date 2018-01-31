@@ -5,7 +5,7 @@ description: >-
   The Public Library Innovation Exchange supports joint projects between
   public librarians and MIT Media Lab researchers. Together, we hope to design
   new tools and programs for public libraries around the world.
-baseurl: "plix-trial"
+baseurl: "/plix-staging"
 url: "http://learn.media.mit.edu"
 
 # Build settings
