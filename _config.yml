@@ -1,0 +1,22 @@
+# Setup
+title: Public Library Innovation Exchange
+email: hbailey@mit.edu
+description: >-
+  The Public Library Innovation Exchange supports joint projects between
+  public librarians and MIT Media Lab researchers. Together, we hope to design
+  new tools and programs for public libraries around the world.
+baseurl: "plix-trial"
+url: "http://learn.media.mit.edu"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+include: ['_pages']
+
+# Assets
+sass:
+  style: :compressed
+
+redirects: yes

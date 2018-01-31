@@ -1,0 +1,25 @@
+---
+layout: tiles
+title: Activities
+permalink: /activities/
+redirect_from: /
+---
+
+<ul class="tiles">
+
+{% for activity in site.data.activities %}
+  <li>
+    <div class="tile">
+      <img src={{ activity[1].cover_photo | relative_url }} alt="{{ activity[1].name }}" />
+      <div class="overlay">
+        <div class="info">
+          {{ activity[1].short_intro }}<br /><br />
+          <a href={{ activity[1].link | relative_url }}>Learn more!</a>
+        </div>
+      </div>
+    </div>
+    {{ activity[1].name }}
+  </li>
+{% endfor %}
+
+</ul>

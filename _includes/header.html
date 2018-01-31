@@ -1,0 +1,10 @@
+<header class="site-header{% if include.style %} {{ include.style }}{% endif %}">
+  <div class="header-content">
+
+  	<a href={{ '/activities' | relative_url }}><img src={{ '/images/PLIX-Logo.svg' | relative_url }} class="site-logo" alt="PLIX logo" /></a>
+
+    {% include nav.html %}
+
+  </div>
+
+</header>
